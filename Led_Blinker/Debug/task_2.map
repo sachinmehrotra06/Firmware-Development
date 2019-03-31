@@ -1,0 +1,819 @@
+Archive member included because of file (symbol)
+
+/home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                              ./main.o (led_redInit)
+/home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                              ./main.o (lcd_setCursor)
+/home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+                              /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o) (lcdDriver_init)
+/home/sachin/embedded/eclipse/program/ses/libuart.a(ses_uart.o)
+                              ./main.o (uart_init)
+/usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodsi4.o)
+                              /home/sachin/embedded/eclipse/program/ses/libuart.a(ses_uart.o) (__udivmodsi4)
+/usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o (exit)
+/usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+                              ./main.o (__do_copy_data)
+/usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+                              /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o) (__do_clear_bss)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(cmpsf2.o)
+                              ./main.o (__ltsf2)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o)
+                              ./main.o (__fixunssfsi)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_cmp.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(cmpsf2.o) (__fp_cmp)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_split3.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o) (__fp_splitA)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_zero.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o) (__fp_zero)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(gesf2.o)
+                              ./main.o (__gtsf2)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3.o)
+                              ./main.o (__mulsf3)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3.o) (__mulsf3x)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_inf.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3x.o) (__fp_inf)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_nan.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3x.o) (__fp_nan)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_pscA.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3x.o) (__fp_pscA)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_pscB.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3x.o) (__fp_pscB)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_round.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3.o) (__fp_round)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o)
+                              ./main.o (fprintf)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fwrite.o)
+                              ./main.o (fwrite)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o) (vfprintf)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (strnlen_P)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (strnlen)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fputc.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (fputc)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (__ultoa_invert)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800100 0x000000000000ff00 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+LOAD ./main.o
+LOAD /home/sachin/embedded/eclipse/program/ses/Debug/libses.a
+LOAD /home/sachin/embedded/eclipse/program/ses/liblcd.a
+LOAD /home/sachin/embedded/eclipse/program/ses/libuart.a
+START GROUP
+LOAD /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a
+LOAD /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a
+LOAD /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x1352
+ *(.vectors)
+ .vectors       0x0000000000000000      0x120 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x0000000000000120                . = ALIGN (0x2)
+                0x0000000000000120                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000120        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000120                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000120                __ctors_start = .
+ *(.ctors)
+                0x0000000000000120                __ctors_end = .
+                0x0000000000000120                __dtors_start = .
+ *(.dtors)
+                0x0000000000000120                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000120        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+                0x0000000000000120                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000120        0xc /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000000000012c       0x1a /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+                0x000000000000012c                __do_copy_data
+ .init4         0x0000000000000146       0x10 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+                0x0000000000000146                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000000000000156        0x8 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+ *(.init9)
+ *(.text)
+ .text          0x000000000000015e        0x4 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+                0x000000000000015e                __vector_38
+                0x000000000000015e                __vector_22
+                0x000000000000015e                __vector_63
+                0x000000000000015e                __vector_28
+                0x000000000000015e                __vector_67
+                0x000000000000015e                __vector_1
+                0x000000000000015e                __vector_32
+                0x000000000000015e                __vector_71
+                0x000000000000015e                __vector_34
+                0x000000000000015e                __vector_62
+                0x000000000000015e                __vector_24
+                0x000000000000015e                __vector_12
+                0x000000000000015e                __vector_55
+                0x000000000000015e                __vector_69
+                0x000000000000015e                __vector_46
+                0x000000000000015e                __bad_interrupt
+                0x000000000000015e                __vector_6
+                0x000000000000015e                __vector_31
+                0x000000000000015e                __vector_35
+                0x000000000000015e                __vector_39
+                0x000000000000015e                __vector_3
+                0x000000000000015e                __vector_23
+                0x000000000000015e                __vector_68
+                0x000000000000015e                __vector_30
+                0x000000000000015e                __vector_45
+                0x000000000000015e                __vector_25
+                0x000000000000015e                __vector_61
+                0x000000000000015e                __vector_11
+                0x000000000000015e                __vector_54
+                0x000000000000015e                __vector_13
+                0x000000000000015e                __vector_17
+                0x000000000000015e                __vector_19
+                0x000000000000015e                __vector_56
+                0x000000000000015e                __vector_7
+                0x000000000000015e                __vector_49
+                0x000000000000015e                __vector_41
+                0x000000000000015e                __vector_64
+                0x000000000000015e                __vector_43
+                0x000000000000015e                __vector_27
+                0x000000000000015e                __vector_5
+                0x000000000000015e                __vector_33
+                0x000000000000015e                __vector_47
+                0x000000000000015e                __vector_52
+                0x000000000000015e                __vector_37
+                0x000000000000015e                __vector_4
+                0x000000000000015e                __vector_44
+                0x000000000000015e                __vector_51
+                0x000000000000015e                __vector_9
+                0x000000000000015e                __vector_2
+                0x000000000000015e                __vector_21
+                0x000000000000015e                __vector_15
+                0x000000000000015e                __vector_66
+                0x000000000000015e                __vector_36
+                0x000000000000015e                __vector_58
+                0x000000000000015e                __vector_70
+                0x000000000000015e                __vector_29
+                0x000000000000015e                __vector_60
+                0x000000000000015e                __vector_40
+                0x000000000000015e                __vector_8
+                0x000000000000015e                __vector_26
+                0x000000000000015e                __vector_48
+                0x000000000000015e                __vector_14
+                0x000000000000015e                __vector_57
+                0x000000000000015e                __vector_53
+                0x000000000000015e                __vector_10
+                0x000000000000015e                __vector_50
+                0x000000000000015e                __vector_16
+                0x000000000000015e                __vector_59
+                0x000000000000015e                __vector_18
+                0x000000000000015e                __vector_20
+                0x000000000000015e                __vector_42
+                0x000000000000015e                __vector_65
+ .text          0x0000000000000162        0x0 ./main.o
+ .text          0x0000000000000162        0x0 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+ .text          0x0000000000000162        0x0 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .text          0x0000000000000162        0x0 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+ .text          0x0000000000000162        0x0 /home/sachin/embedded/eclipse/program/ses/libuart.a(ses_uart.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(cmpsf2.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_cmp.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_split3.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_zero.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(gesf2.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_inf.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_nan.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_pscA.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_pscB.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_round.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fwrite.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fputc.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                0x0000000000000162                . = ALIGN (0x2)
+ *(.text.*)
+ .text.main     0x0000000000000162      0x466 ./main.o
+                0x0000000000000162                main
+ .text.print_state
+                0x00000000000005c8       0x80 ./main.o
+                0x00000000000005c8                print_state
+ .text.led_redInit
+                0x0000000000000648       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x0000000000000648                led_redInit
+ .text.led_redToggle
+                0x0000000000000668       0x22 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x0000000000000668                led_redToggle
+ .text.led_redOn
+                0x000000000000068a       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x000000000000068a                led_redOn
+ .text.led_redOff
+                0x00000000000006aa       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x00000000000006aa                led_redOff
+ .text.led_yellowInit
+                0x00000000000006ca       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x00000000000006ca                led_yellowInit
+ .text.led_yellowToggle
+                0x00000000000006ea       0x22 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x00000000000006ea                led_yellowToggle
+ .text.led_yellowOn
+                0x000000000000070c       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x000000000000070c                led_yellowOn
+ .text.led_yellowOff
+                0x000000000000072c       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x000000000000072c                led_yellowOff
+ .text.led_greenInit
+                0x000000000000074c       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x000000000000074c                led_greenInit
+ .text.led_greenToggle
+                0x000000000000076c       0x22 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x000000000000076c                led_greenToggle
+ .text.led_greenOn
+                0x000000000000078e       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x000000000000078e                led_greenOn
+ .text.led_greenOff
+                0x00000000000007ae       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x00000000000007ae                led_greenOff
+ .text.lcd_waitBusy
+                0x00000000000007ce        0xa /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .text.lcd_write
+                0x00000000000007d8       0x5c /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .text.lcd_setCursor
+                0x0000000000000834        0xa /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                0x0000000000000834                lcd_setCursor
+ .text.lcd_putc
+                0x000000000000083e       0x80 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                0x000000000000083e                lcd_putc
+ .text.put      0x00000000000008be        0xa /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .text.lcd_setPixel
+                0x00000000000008c8       0x8e /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                0x00000000000008c8                lcd_setPixel
+ .text.lcd_clear
+                0x0000000000000956       0x46 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                0x0000000000000956                lcd_clear
+ .text.lcd_init
+                0x000000000000099c       0x66 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                0x000000000000099c                lcd_init
+ .text.lcdDriver_init
+                0x0000000000000a02        0xe /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+                0x0000000000000a02                lcdDriver_init
+ .text.lcdDriver_writeData
+                0x0000000000000a10       0x16 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+                0x0000000000000a10                lcdDriver_writeData
+ .text.lcdDriver_writeCommand
+                0x0000000000000a26       0x14 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+                0x0000000000000a26                lcdDriver_writeCommand
+ .text.lcdDriver_selectController
+                0x0000000000000a3a       0x12 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+                0x0000000000000a3a                lcdDriver_selectController
+ .text.lcdDriver_readStatus
+                0x0000000000000a4c       0x14 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+                0x0000000000000a4c                lcdDriver_readStatus
+ .text.uart_init
+                0x0000000000000a60       0x86 /home/sachin/embedded/eclipse/program/ses/libuart.a(ses_uart.o)
+                0x0000000000000a60                uart_init
+ .text.uart_getc
+                0x0000000000000ae6        0xe /home/sachin/embedded/eclipse/program/ses/libuart.a(ses_uart.o)
+                0x0000000000000ae6                uart_getc
+ .text.uart_putc
+                0x0000000000000af4        0xe /home/sachin/embedded/eclipse/program/ses/libuart.a(ses_uart.o)
+                0x0000000000000af4                uart_putc
+ .text.uart_putcProxy
+                0x0000000000000b02        0xa /home/sachin/embedded/eclipse/program/ses/libuart.a(ses_uart.o)
+ .text.libgcc.mul
+                0x0000000000000b0c        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x0000000000000b0c       0x44 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodsi4.o)
+                0x0000000000000b0c                __udivmodsi4
+ .text.libgcc   0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000b50        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text.avr-libc.fplib
+                0x0000000000000b50        0x8 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(cmpsf2.o)
+                0x0000000000000b50                __lesf2
+                0x0000000000000b50                __nesf2
+                0x0000000000000b50                __eqsf2
+                0x0000000000000b50                __cmpsf2
+                0x0000000000000b50                __ltsf2
+ .text.avr-libc.fplib
+                0x0000000000000b58       0x58 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o)
+                0x0000000000000b58                __fixunssfsi
+ .text.avr-libc.fplib
+                0x0000000000000bb0       0x48 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_cmp.o)
+                0x0000000000000bb0                __fp_cmp
+ .text.avr-libc.fplib
+                0x0000000000000bf8       0x44 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_split3.o)
+                0x0000000000000bf8                __fp_split3
+                0x0000000000000c08                __fp_splitA
+ .text.avr-libc.fplib
+                0x0000000000000c3c        0xe /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_zero.o)
+                0x0000000000000c3c                __fp_zero
+                0x0000000000000c3e                __fp_szero
+ .text.avr-libc.fplib
+                0x0000000000000c4a        0x8 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(gesf2.o)
+                0x0000000000000c4a                __gtsf2
+                0x0000000000000c4a                __gesf2
+ .text.avr-libc.fplib
+                0x0000000000000c52        0x4 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3.o)
+                0x0000000000000c52                __mulsf3
+ .text.avr-libc.fplib
+                0x0000000000000c56       0xc2 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+                0x0000000000000c6a                __mulsf3x
+                0x0000000000000c6e                __mulsf3_pse
+ .text.avr-libc.fplib
+                0x0000000000000d18        0xc /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_inf.o)
+                0x0000000000000d18                __fp_inf
+ .text.avr-libc.fplib
+                0x0000000000000d24        0x6 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_nan.o)
+                0x0000000000000d24                __fp_nan
+ .text.avr-libc.fplib
+                0x0000000000000d2a        0xe /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_pscA.o)
+                0x0000000000000d2a                __fp_pscA
+ .text.avr-libc.fplib
+                0x0000000000000d38        0xe /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_pscB.o)
+                0x0000000000000d38                __fp_pscB
+ .text.avr-libc.fplib
+                0x0000000000000d46       0x22 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_round.o)
+                0x0000000000000d46                __fp_round
+ .text.avr-libc
+                0x0000000000000d68       0x20 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o)
+                0x0000000000000d68                fprintf
+ .text.avr-libc
+                0x0000000000000d88       0x84 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fwrite.o)
+                0x0000000000000d88                fwrite
+ .text.avr-libc
+                0x0000000000000e0c      0x3f6 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+                0x0000000000000e0c                vfprintf
+ .text.avr-libc
+                0x0000000000001202       0x16 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+                0x0000000000001202                strnlen_P
+ .text.avr-libc
+                0x0000000000001218       0x16 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+                0x0000000000001218                strnlen
+ .text.avr-libc
+                0x000000000000122e       0x64 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fputc.o)
+                0x000000000000122e                fputc
+ .text.avr-libc
+                0x0000000000001292       0xbc /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                0x0000000000001292                __ultoa_invert
+                0x000000000000134e                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000000000000134e        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+                0x000000000000134e                exit
+                0x000000000000134e                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000000000000134e        0x4 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000001352                _etext = .
+
+.data           0x0000000000800200      0x622 load address 0x0000000000001352
+                0x0000000000800200                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+ .data          0x0000000000800200        0x0 ./main.o
+ .data          0x0000000000800200        0x0 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+ .data          0x0000000000800200        0x0 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .data          0x0000000000800200        0x0 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+ .data          0x0000000000800200        0x0 /home/sachin/embedded/eclipse/program/ses/libuart.a(ses_uart.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(cmpsf2.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_cmp.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_split3.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_zero.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(gesf2.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_inf.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_nan.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_pscA.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_pscB.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_round.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fwrite.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fputc.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+ *(.data*)
+ .data.lcdout   0x0000000000800200        0x2 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                0x0000000000800200                lcdout
+ .data.uartout  0x0000000000800202        0x2 /home/sachin/embedded/eclipse/program/ses/libuart.a(ses_uart.o)
+                0x0000000000800202                uartout
+ *(.rodata)
+ .rodata        0x0000000000800204       0x1e ./main.o
+ *(.rodata*)
+ .rodata.font6x8
+                0x0000000000800222      0x600 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                0x0000000000800222                font6x8
+ *(.gnu.linkonce.d*)
+                0x0000000000800822                . = ALIGN (0x2)
+                0x0000000000800822                _edata = .
+                0x0000000000800822                PROVIDE (__data_end, .)
+
+.bss            0x0000000000800822      0x207
+                0x0000000000800822                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+ .bss           0x0000000000800822        0x0 ./main.o
+ .bss           0x0000000000800822        0x0 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+ .bss           0x0000000000800822        0x0 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .bss           0x0000000000800822        0x0 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+ .bss           0x0000000000800822        0x0 /home/sachin/embedded/eclipse/program/ses/libuart.a(ses_uart.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(cmpsf2.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_cmp.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_split3.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_zero.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(gesf2.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_inf.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_nan.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_pscA.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_pscB.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_round.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fwrite.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fputc.o)
+ .bss           0x0000000000800822        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+ *(.bss*)
+ .bss.pixel_memory
+                0x0000000000800822      0x1e8 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .bss.row       0x0000000000800a0a        0x1 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .bss.pos       0x0000000000800a0b        0x1 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .bss.file      0x0000000000800a0c        0xe /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .bss.file      0x0000000000800a1a        0xe /home/sachin/embedded/eclipse/program/ses/libuart.a(ses_uart.o)
+ .bss.initialized
+                0x0000000000800a28        0x1 /home/sachin/embedded/eclipse/program/ses/libuart.a(ses_uart.o)
+ *(COMMON)
+                0x0000000000800a29                PROVIDE (__bss_end, .)
+                0x0000000000001352                __data_load_start = LOADADDR (.data)
+                0x0000000000001974                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800a29        0x0
+                0x0000000000800a29                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0000000000800a29                PROVIDE (__noinit_end, .)
+                0x0000000000800a29                _end = .
+                0x0000000000800a29                PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x0000000000000000     0x4a04
+ *(.stab)
+ .stab          0x0000000000000000      0x6cc /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+ .stab          0x00000000000006cc     0x11ac ./main.o
+                                       0x11b8 (size before relaxing)
+ .stab          0x0000000000001878      0x534 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                                        0xf0c (size before relaxing)
+ .stab          0x0000000000001dac       0x90 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(cmpsf2.o)
+                                         0x9c (size before relaxing)
+ .stab          0x0000000000001e3c      0x240 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fixunssfsi.o)
+                                        0x24c (size before relaxing)
+ .stab          0x000000000000207c      0x1e0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_cmp.o)
+                                        0x1ec (size before relaxing)
+ .stab          0x000000000000225c      0x1d4 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_split3.o)
+                                        0x1e0 (size before relaxing)
+ .stab          0x0000000000002430       0x90 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_zero.o)
+                                         0x9c (size before relaxing)
+ .stab          0x00000000000024c0       0x6c /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(gesf2.o)
+                                         0x78 (size before relaxing)
+ .stab          0x000000000000252c       0x48 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3.o)
+                                         0x54 (size before relaxing)
+ .stab          0x0000000000002574      0x4d4 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(mulsf3x.o)
+                                        0x4e0 (size before relaxing)
+ .stab          0x0000000000002a48       0x78 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_inf.o)
+                                         0x84 (size before relaxing)
+ .stab          0x0000000000002ac0       0x54 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_nan.o)
+                                         0x60 (size before relaxing)
+ .stab          0x0000000000002b14       0x84 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_pscA.o)
+                                         0x90 (size before relaxing)
+ .stab          0x0000000000002b98       0x84 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_pscB.o)
+                                         0x90 (size before relaxing)
+ .stab          0x0000000000002c1c       0xfc /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a(fp_round.o)
+                                        0x108 (size before relaxing)
+ .stab          0x0000000000002d18      0x4bc /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o)
+                                        0x4ec (size before relaxing)
+ .stab          0x00000000000031d4      0x384 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fwrite.o)
+                                        0x564 (size before relaxing)
+ .stab          0x0000000000003558      0xba0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+                                        0xd80 (size before relaxing)
+ .stab          0x00000000000040f8       0x9c /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+                                         0xa8 (size before relaxing)
+ .stab          0x0000000000004194       0x9c /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+                                         0xa8 (size before relaxing)
+ .stab          0x0000000000004230      0x354 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fputc.o)
+                                        0x534 (size before relaxing)
+ .stab          0x0000000000004584      0x480 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                                        0x48c (size before relaxing)
+
+.stabstr        0x0000000000000000     0x50c0
+ *(.stabstr)
+ .stabstr       0x0000000000000000     0x50c0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x41
+ *(.comment)
+ .comment       0x0000000000000000       0x11 ./main.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+ .comment       0x0000000000000011       0x30 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                                         0x31 (size before relaxing)
+ .comment       0x0000000000000000       0x31 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+ .comment       0x0000000000000000       0x31 /home/sachin/embedded/eclipse/program/ses/libuart.a(ses_uart.o)
+ .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o)
+ .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fwrite.o)
+ .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+ .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fputc.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(task_2.elf elf32-avr)
+LOAD linker stubs
