@@ -1,0 +1,778 @@
+Archive member included because of file (symbol)
+
+/home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_adc.o)
+                              ./main.o (adc_init)
+/home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+                              ./main.o (button_init)
+/home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                              ./main.o (led_redInit)
+/home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+                              /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o) (timer1_setCallback)
+/home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                              ./main.o (lcd_setCursor)
+/home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+                              /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o) (lcdDriver_init)
+/usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_umulhisi3.o)
+                              ./main.o (__umulhisi3)
+/usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_divmodhi4.o)
+                              ./main.o (__divmodhi4)
+/usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o (exit)
+/usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+                              ./main.o (__do_copy_data)
+/usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+                              /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o) (__do_clear_bss)
+/usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodhi4.o)
+                              /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_divmodhi4.o) (__udivmodhi4)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o)
+                              ./main.o (fprintf)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o) (vfprintf)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (strnlen_P)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (strnlen)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fputc.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (fputc)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (__ultoa_invert)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800100 0x000000000000ff00 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+LOAD ./main.o
+LOAD /home/sachin/embedded/eclipse/program/ses/Debug/libses.a
+LOAD /home/sachin/embedded/eclipse/program/ses/liblcd.a
+START GROUP
+LOAD /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a
+LOAD /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libm.a
+LOAD /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x1634
+ *(.vectors)
+ .vectors       0x0000000000000000      0x120 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x0000000000000120                . = ALIGN (0x2)
+                0x0000000000000120                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000120        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000120                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000120                __ctors_start = .
+ *(.ctors)
+                0x0000000000000120                __ctors_end = .
+                0x0000000000000120                __dtors_start = .
+ *(.dtors)
+                0x0000000000000120                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000120        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+                0x0000000000000120                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000120        0xc /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000000000012c       0x1a /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+                0x000000000000012c                __do_copy_data
+ .init4         0x0000000000000146       0x10 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+                0x0000000000000146                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000000000000156        0x8 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+ *(.init9)
+ *(.text)
+ .text          0x000000000000015e        0x4 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+                0x000000000000015e                __vector_38
+                0x000000000000015e                __vector_22
+                0x000000000000015e                __vector_63
+                0x000000000000015e                __vector_28
+                0x000000000000015e                __vector_67
+                0x000000000000015e                __vector_1
+                0x000000000000015e                __vector_32
+                0x000000000000015e                __vector_71
+                0x000000000000015e                __vector_34
+                0x000000000000015e                __vector_62
+                0x000000000000015e                __vector_24
+                0x000000000000015e                __vector_12
+                0x000000000000015e                __vector_55
+                0x000000000000015e                __vector_69
+                0x000000000000015e                __vector_46
+                0x000000000000015e                __bad_interrupt
+                0x000000000000015e                __vector_6
+                0x000000000000015e                __vector_31
+                0x000000000000015e                __vector_35
+                0x000000000000015e                __vector_39
+                0x000000000000015e                __vector_3
+                0x000000000000015e                __vector_23
+                0x000000000000015e                __vector_68
+                0x000000000000015e                __vector_30
+                0x000000000000015e                __vector_45
+                0x000000000000015e                __vector_25
+                0x000000000000015e                __vector_61
+                0x000000000000015e                __vector_11
+                0x000000000000015e                __vector_54
+                0x000000000000015e                __vector_19
+                0x000000000000015e                __vector_56
+                0x000000000000015e                __vector_7
+                0x000000000000015e                __vector_49
+                0x000000000000015e                __vector_41
+                0x000000000000015e                __vector_64
+                0x000000000000015e                __vector_43
+                0x000000000000015e                __vector_27
+                0x000000000000015e                __vector_5
+                0x000000000000015e                __vector_33
+                0x000000000000015e                __vector_47
+                0x000000000000015e                __vector_52
+                0x000000000000015e                __vector_37
+                0x000000000000015e                __vector_4
+                0x000000000000015e                __vector_44
+                0x000000000000015e                __vector_51
+                0x000000000000015e                __vector_2
+                0x000000000000015e                __vector_21
+                0x000000000000015e                __vector_15
+                0x000000000000015e                __vector_66
+                0x000000000000015e                __vector_36
+                0x000000000000015e                __vector_58
+                0x000000000000015e                __vector_70
+                0x000000000000015e                __vector_29
+                0x000000000000015e                __vector_60
+                0x000000000000015e                __vector_40
+                0x000000000000015e                __vector_8
+                0x000000000000015e                __vector_26
+                0x000000000000015e                __vector_48
+                0x000000000000015e                __vector_14
+                0x000000000000015e                __vector_57
+                0x000000000000015e                __vector_53
+                0x000000000000015e                __vector_10
+                0x000000000000015e                __vector_50
+                0x000000000000015e                __vector_16
+                0x000000000000015e                __vector_59
+                0x000000000000015e                __vector_18
+                0x000000000000015e                __vector_20
+                0x000000000000015e                __vector_42
+                0x000000000000015e                __vector_65
+ .text          0x0000000000000162        0x0 ./main.o
+ .text          0x0000000000000162        0x0 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_adc.o)
+ .text          0x0000000000000162        0x0 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+ .text          0x0000000000000162        0x0 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+ .text          0x0000000000000162        0x0 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+ .text          0x0000000000000162        0x0 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .text          0x0000000000000162        0x0 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_umulhisi3.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_divmodhi4.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodhi4.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fputc.o)
+ .text          0x0000000000000162        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                0x0000000000000162                . = ALIGN (0x2)
+ *(.text.*)
+ .text.main     0x0000000000000162      0x22e ./main.o
+                0x0000000000000162                main
+ .text.adc_init
+                0x0000000000000390      0x10a /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_adc.o)
+                0x0000000000000390                adc_init
+ .text.adc_read
+                0x000000000000049a       0x78 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_adc.o)
+                0x000000000000049a                adc_read
+ .text.adc_getJoystickDirection
+                0x0000000000000512       0x8c /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_adc.o)
+                0x0000000000000512                adc_getJoystickDirection
+ .text.adc_getTemperature
+                0x000000000000059e       0x80 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_adc.o)
+                0x000000000000059e                adc_getTemperature
+ .text.button_init
+                0x000000000000061e       0xb8 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+                0x000000000000061e                button_init
+ .text.button_isJoystickPressed
+                0x00000000000006d6       0x26 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+                0x00000000000006d6                button_isJoystickPressed
+ .text.button_isRotaryPressed
+                0x00000000000006fc       0x2e /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+                0x00000000000006fc                button_isRotaryPressed
+ .text.__vector_9
+                0x000000000000072a       0xc2 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+                0x000000000000072a                __vector_9
+ .text.button_setRotaryButtonCallback
+                0x00000000000007ec       0x24 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+                0x00000000000007ec                button_setRotaryButtonCallback
+ .text.button_setJoystickButtonCallback
+                0x0000000000000810       0x24 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+                0x0000000000000810                button_setJoystickButtonCallback
+ .text.button_checkState
+                0x0000000000000834      0x130 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+                0x0000000000000834                button_checkState
+ .text.led_redInit
+                0x0000000000000964       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x0000000000000964                led_redInit
+ .text.led_redToggle
+                0x0000000000000984       0x22 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x0000000000000984                led_redToggle
+ .text.led_redOn
+                0x00000000000009a6       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x00000000000009a6                led_redOn
+ .text.led_redOff
+                0x00000000000009c6       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x00000000000009c6                led_redOff
+ .text.led_yellowInit
+                0x00000000000009e6       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x00000000000009e6                led_yellowInit
+ .text.led_yellowToggle
+                0x0000000000000a06       0x22 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x0000000000000a06                led_yellowToggle
+ .text.led_yellowOn
+                0x0000000000000a28       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x0000000000000a28                led_yellowOn
+ .text.led_yellowOff
+                0x0000000000000a48       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x0000000000000a48                led_yellowOff
+ .text.led_greenInit
+                0x0000000000000a68       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x0000000000000a68                led_greenInit
+ .text.led_greenToggle
+                0x0000000000000a88       0x22 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x0000000000000a88                led_greenToggle
+ .text.led_greenOn
+                0x0000000000000aaa       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x0000000000000aaa                led_greenOn
+ .text.led_greenOff
+                0x0000000000000aca       0x20 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                0x0000000000000aca                led_greenOff
+ .text.timer2_setCallback
+                0x0000000000000aea       0x24 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+                0x0000000000000aea                timer2_setCallback
+ .text.timer2_start
+                0x0000000000000b0e       0x96 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+                0x0000000000000b0e                timer2_start
+ .text.timer2_stop
+                0x0000000000000ba4       0x44 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+                0x0000000000000ba4                timer2_stop
+ .text.__vector_13
+                0x0000000000000be8       0x6c /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+                0x0000000000000be8                __vector_13
+ .text.timer1_setCallback
+                0x0000000000000c54       0x24 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+                0x0000000000000c54                timer1_setCallback
+ .text.timer1_setCallback2
+                0x0000000000000c78       0x24 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+                0x0000000000000c78                timer1_setCallback2
+ .text.timer1_start
+                0x0000000000000c9c       0x76 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+                0x0000000000000c9c                timer1_start
+ .text.timer1_stop
+                0x0000000000000d12       0x44 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+                0x0000000000000d12                timer1_stop
+ .text.__vector_17
+                0x0000000000000d56       0x78 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+                0x0000000000000d56                __vector_17
+ .text.lcd_waitBusy
+                0x0000000000000dce        0xa /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .text.lcd_write
+                0x0000000000000dd8       0x5c /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .text.lcd_setCursor
+                0x0000000000000e34        0xa /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                0x0000000000000e34                lcd_setCursor
+ .text.lcd_putc
+                0x0000000000000e3e       0x80 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                0x0000000000000e3e                lcd_putc
+ .text.put      0x0000000000000ebe        0xa /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .text.lcd_setPixel
+                0x0000000000000ec8       0x8e /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                0x0000000000000ec8                lcd_setPixel
+ .text.lcd_clear
+                0x0000000000000f56       0x46 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                0x0000000000000f56                lcd_clear
+ .text.lcd_init
+                0x0000000000000f9c       0x66 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                0x0000000000000f9c                lcd_init
+ .text.lcdDriver_init
+                0x0000000000001002        0xe /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+                0x0000000000001002                lcdDriver_init
+ .text.lcdDriver_writeData
+                0x0000000000001010       0x16 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+                0x0000000000001010                lcdDriver_writeData
+ .text.lcdDriver_writeCommand
+                0x0000000000001026       0x14 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+                0x0000000000001026                lcdDriver_writeCommand
+ .text.lcdDriver_selectController
+                0x000000000000103a       0x12 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+                0x000000000000103a                lcdDriver_selectController
+ .text.lcdDriver_readStatus
+                0x000000000000104c       0x14 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+                0x000000000000104c                lcdDriver_readStatus
+ .text.libgcc.mul
+                0x0000000000001060       0x1e /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_umulhisi3.o)
+                0x0000000000001060                __umulhisi3
+ .text.libgcc.div
+                0x000000000000107e        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x000000000000107e        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x000000000000107e        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x000000000000107e        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x000000000000107e        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x000000000000107e        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x000000000000107e        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x000000000000107e       0x28 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_divmodhi4.o)
+                0x000000000000107e                __divmodhi4
+                0x000000000000107e                _div
+ .text.libgcc   0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc   0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000000010a6        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x00000000000010a6       0x28 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodhi4.o)
+                0x00000000000010a6                __udivmodhi4
+ .text.libgcc   0x00000000000010ce        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000000010ce        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000000010ce        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000000010ce        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000000010ce        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodhi4.o)
+ .text.avr-libc
+                0x00000000000010ce       0x20 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o)
+                0x00000000000010ce                fprintf
+ .text.avr-libc
+                0x00000000000010ee      0x3f6 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+                0x00000000000010ee                vfprintf
+ .text.avr-libc
+                0x00000000000014e4       0x16 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+                0x00000000000014e4                strnlen_P
+ .text.avr-libc
+                0x00000000000014fa       0x16 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+                0x00000000000014fa                strnlen
+ .text.avr-libc
+                0x0000000000001510       0x64 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fputc.o)
+                0x0000000000001510                fputc
+ .text.avr-libc
+                0x0000000000001574       0xbc /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                0x0000000000001574                __ultoa_invert
+                0x0000000000001630                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000001630        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+                0x0000000000001630                exit
+                0x0000000000001630                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000001630        0x4 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000001634                _etext = .
+
+.data           0x0000000000800200      0x638 load address 0x0000000000001634
+                0x0000000000800200                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+ .data          0x0000000000800200        0x0 ./main.o
+ .data          0x0000000000800200        0x0 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_adc.o)
+ .data          0x0000000000800200        0x0 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+ .data          0x0000000000800200        0x0 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+ .data          0x0000000000800200        0x0 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+ .data          0x0000000000800200        0x0 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .data          0x0000000000800200        0x0 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_umulhisi3.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_divmodhi4.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fputc.o)
+ .data          0x0000000000800200        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+ *(.data*)
+ .data.lcdout   0x0000000000800200        0x2 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                0x0000000000800200                lcdout
+ *(.rodata)
+ .rodata        0x0000000000800202       0x35 ./main.o
+ *(.rodata*)
+ .rodata.font6x8
+                0x0000000000800237      0x600 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                0x0000000000800237                font6x8
+ *(.gnu.linkonce.d*)
+                0x0000000000800838                . = ALIGN (0x2)
+ *fill*         0x0000000000800837        0x1 
+                0x0000000000800838                _edata = .
+                0x0000000000800838                PROVIDE (__data_end, .)
+
+.bss            0x0000000000800838      0x209
+                0x0000000000800838                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0000000000800838        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+ .bss           0x0000000000800838        0x0 ./main.o
+ .bss           0x0000000000800838        0x0 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_adc.o)
+ .bss           0x0000000000800838        0x0 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+ .bss           0x0000000000800838        0x0 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+ .bss           0x0000000000800838        0x0 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+ .bss           0x0000000000800838        0x0 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .bss           0x0000000000800838        0x0 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+ .bss           0x0000000000800838        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000800838        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_divmodhi4.o)
+ .bss           0x0000000000800838        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_exit.o)
+ .bss           0x0000000000800838        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_copy_data.o)
+ .bss           0x0000000000800838        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000800838        0x0 /usr/lib/gcc/avr/4.8.2/avr51/libgcc.a(_udivmodhi4.o)
+ .bss           0x0000000000800838        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o)
+ .bss           0x0000000000800838        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+ .bss           0x0000000000800838        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+ .bss           0x0000000000800838        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+ .bss           0x0000000000800838        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fputc.o)
+ .bss           0x0000000000800838        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+ *(.bss*)
+ .bss.cbRotary  0x0000000000800838        0x2 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+ .bss.cbJoystick
+                0x000000000080083a        0x2 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+ .bss.debouncedState.2687
+                0x000000000080083c        0x1 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+ .bss.index.2686
+                0x000000000080083d        0x1 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+ .bss.state.2685
+                0x000000000080083e        0x5 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+ .bss.cbTimer2  0x0000000000800843        0x2 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+ .bss.cbTimer1  0x0000000000800845        0x2 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+ .bss.cbTimer1_2
+                0x0000000000800847        0x2 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+ .bss.pixel_memory
+                0x0000000000800849      0x1e8 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .bss.row       0x0000000000800a31        0x1 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .bss.pos       0x0000000000800a32        0x1 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ .bss.file      0x0000000000800a33        0xe /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+ *(COMMON)
+                0x0000000000800a41                PROVIDE (__bss_end, .)
+                0x0000000000001634                __data_load_start = LOADADDR (.data)
+                0x0000000000001c6c                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800a41        0x0
+                0x0000000000800a41                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0000000000800a41                PROVIDE (__noinit_end, .)
+                0x0000000000800a41                _end = .
+                0x0000000000800a41                PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x0000000000000000     0x4824
+ *(.stab)
+ .stab          0x0000000000000000      0x6cc /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+ .stab          0x00000000000006cc      0xfb4 ./main.o
+                                        0xfc0 (size before relaxing)
+ .stab          0x0000000000001680      0x600 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_adc.o)
+                                        0xfd8 (size before relaxing)
+ .stab          0x0000000000001c80      0x768 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+                                       0x1164 (size before relaxing)
+ .stab          0x00000000000023e8      0x510 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+                                        0xf0c (size before relaxing)
+ .stab          0x00000000000028f8      0x5c4 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+                                        0xfc0 (size before relaxing)
+ .stab          0x0000000000002ebc      0x4bc /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o)
+                                        0x4ec (size before relaxing)
+ .stab          0x0000000000003378      0xba0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+                                        0xd80 (size before relaxing)
+ .stab          0x0000000000003f18       0x9c /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+                                         0xa8 (size before relaxing)
+ .stab          0x0000000000003fb4       0x9c /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(strnlen.o)
+                                         0xa8 (size before relaxing)
+ .stab          0x0000000000004050      0x354 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fputc.o)
+                                        0x534 (size before relaxing)
+ .stab          0x00000000000043a4      0x480 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                                        0x48c (size before relaxing)
+
+.stabstr        0x0000000000000000     0x547b
+ *(.stabstr)
+ .stabstr       0x0000000000000000     0x547b /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/crtm128rfa1.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x41
+ *(.comment)
+ .comment       0x0000000000000000       0x11 ./main.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_adc.o)
+ .comment       0x0000000000000000       0x12 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_button.o)
+ .comment       0x0000000000000000       0x12 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_led.o)
+ .comment       0x0000000000000000       0x12 /home/sachin/embedded/eclipse/program/ses/Debug/libses.a(ses_timer.o)
+ .comment       0x0000000000000011       0x30 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcd.o)
+                                         0x31 (size before relaxing)
+ .comment       0x0000000000000000       0x31 /home/sachin/embedded/eclipse/program/ses/liblcd.a(ses_lcdDriver.o)
+ .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fprintf.o)
+ .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+ .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr51/libc.a(fputc.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(task_3.elf elf32-avr)
+LOAD linker stubs
